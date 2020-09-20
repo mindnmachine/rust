@@ -1,9 +1,9 @@
 fn main(){
 
-let mut x:i32 = 10;
+let mut x:i32 = std::i32::MAX;
 println!("X orignally = {}",x);
 
-x  = 40;
+x  = x +1;
 println!("X Mutated to  = {}",x);
 
 }
